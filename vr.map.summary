@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Jun  2 10:39:18 2017
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : vr
+Top-level Entity Name : vr
+Family : Cyclone II
+Total logic elements : 2,588
+    Total combinational functions : 2,361
+    Dedicated logic registers : 1,239
+Total registers : 1239
+Total pins : 159
+Total virtual pins : 0
+Total memory bits : 87,040
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

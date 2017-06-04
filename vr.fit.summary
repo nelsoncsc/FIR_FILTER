@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Jun  2 10:39:50 2017
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : vr
+Top-level Entity Name : vr
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Total logic elements : 2,482 / 33,216 ( 7 % )
+    Total combinational functions : 2,361 / 33,216 ( 7 % )
+    Dedicated logic registers : 1,213 / 33,216 ( 4 % )
+Total registers : 1279
+Total pins : 159 / 475 ( 33 % )
+Total virtual pins : 0
+Total memory bits : 87,040 / 483,840 ( 18 % )
+Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

@@ -1,0 +1,74 @@
+
+State Machine - |vr|playrec:rc|streg
+Name streg~4 streg~3 streg~2 
+streg.st_input_check 0 0 0 
+streg.st_rc_audio_wait 1 1 0 
+streg.st_rc_ram_nextaddr 1 0 1 
+streg.st_rc_ram_wait 1 0 0 
+streg.st_pl_ram_rd 0 1 1 
+streg.st_pl_audio_wait 0 1 0 
+streg.st_pl_ram_nextaddr 0 0 1 
+streg.st_start 1 1 1 
+
+State Machine - |vr|Audio_Controller:Audio_Controller|Audio_and_Video_Config:Audio_Config|s_alavon_slave
+Name s_alavon_slave~3 s_alavon_slave~2 
+s_alavon_slave.I2C_STATE_0_IDLE 0 0 
+s_alavon_slave.I2C_STATE_1_START 0 1 
+s_alavon_slave.I2C_STATE_2_TRANSFERING 1 0 
+s_alavon_slave.I2C_STATE_3_COMPLETE 1 1 
+
+State Machine - |vr|Audio_Controller:Audio_Controller|Audio_and_Video_Config:Audio_Config|Altera_UP_I2C:I2C_Controller|s_i2c_transceiver
+Name s_i2c_transceiver~4 s_i2c_transceiver~3 s_i2c_transceiver~2 
+s_i2c_transceiver.I2C_STATE_0_IDLE 0 0 0 
+s_i2c_transceiver.I2C_STATE_1_PRE_START 0 0 1 
+s_i2c_transceiver.I2C_STATE_2_START_BIT 0 1 0 
+s_i2c_transceiver.I2C_STATE_3_TRANSFER_BYTE 0 1 1 
+s_i2c_transceiver.I2C_STATE_4_TRANSFER_ACK 1 0 0 
+s_i2c_transceiver.I2C_STATE_5_STOP_BIT 1 0 1 
+s_i2c_transceiver.I2C_STATE_6_COMPLETE 1 1 0 
+
+State Machine - |vr|Audio_Controller:Audio_Controller|Audio_and_Video_Config:Audio_Config|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|s_i2c_auto_init
+Name s_i2c_auto_init~4 s_i2c_auto_init~3 s_i2c_auto_init~2 
+s_i2c_auto_init.AUTO_STATE_0_CHECK_STATUS 0 0 0 
+s_i2c_auto_init.AUTO_STATE_1_SEND_START_BIT 0 0 1 
+s_i2c_auto_init.AUTO_STATE_2_TRANSFER_BYTE_1 0 1 0 
+s_i2c_auto_init.AUTO_STATE_3_TRANSFER_BYTE_2 0 1 1 
+s_i2c_auto_init.AUTO_STATE_4_WAIT 1 0 0 
+s_i2c_auto_init.AUTO_STATE_5_SEND_STOP_BIT 1 0 1 
+s_i2c_auto_init.AUTO_STATE_6_INCREASE_COUNTER 1 1 0 
+s_i2c_auto_init.AUTO_STATE_7_DONE 1 1 1 
+
+State Machine - |vr|sdram:ram|m_next
+Name m_next~15 m_next~12 m_next~11 m_next~8 
+m_next.000000001 0 0 0 0 
+m_next.000001000 0 0 1 1 
+m_next.000010000 0 1 0 1 
+m_next.010000000 1 0 0 1 
+
+State Machine - |vr|sdram:ram|m_state
+Name m_state~21 m_state~20 m_state~19 m_state~18 m_state~17 m_state~16 m_state~15 m_state~14 m_state~13 
+m_state.000000001 0 0 0 0 0 0 0 0 0 
+m_state.000000010 0 0 0 0 0 0 0 1 1 
+m_state.000000100 0 0 0 0 0 0 1 0 1 
+m_state.000001000 0 0 0 0 0 1 0 0 1 
+m_state.000010000 0 0 0 0 1 0 0 0 1 
+m_state.000100000 0 0 0 1 0 0 0 0 1 
+m_state.001000000 0 0 1 0 0 0 0 0 1 
+m_state.010000000 0 1 0 0 0 0 0 0 1 
+m_state.100000000 1 0 0 0 0 0 0 0 1 
+
+State Machine - |vr|sdram:ram|i_next
+Name i_next~5 i_next~4 
+i_next.000 0 0 
+i_next.010 1 0 
+i_next.101 0 1 
+i_next.111 1 1 
+
+State Machine - |vr|sdram:ram|i_state
+Name i_state~16 i_state~15 i_state~14 
+i_state.000 0 0 0 
+i_state.001 0 0 1 
+i_state.010 0 1 0 
+i_state.011 0 1 1 
+i_state.101 1 0 1 
+i_state.111 1 1 1 

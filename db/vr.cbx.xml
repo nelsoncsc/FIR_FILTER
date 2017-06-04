@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vr">
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_vfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_feh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_vfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_ofh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_k3h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|Audio_Controller:Audio_Controller|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_5041.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter1:filter|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_deh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_qfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_sfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_eeh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|Audio_Controller:Audio_Controller|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_5041.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter1:filter|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ofh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult3|multcore:mult_core|lpm_add_sub:adder" CBX_FILE_NAME="add_sub_55h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_tfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|vga_adapter:VGA|altsyncram:VideoMemory" CBX_FILE_NAME="altsyncram_9dg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|Audio_Controller:Audio_Controller|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Right_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_5041.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|Audio_Controller:Audio_Controller|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_5041.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter1:filter|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_05h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_05h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_v4h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter1:filter|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_qfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter1:filter|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_v4h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_qfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_v4h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_tfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_v4h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter1:filter|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ufh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter1:filter|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_tfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ufh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_tfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter3:hc1|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_l3h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_vfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_tfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter4:hc|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_u4h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter1:filter|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_vfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vr|playrec:rc|filter1:filter|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_j3h.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
