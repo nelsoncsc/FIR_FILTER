@@ -30,8 +30,8 @@ int main(){
 		 "\nmodule fir_filter(input clock,"
 		 "\n\t\t  input signed [W-1:0] Xin,"
 		 "\n\t\t  output reg signed [W-1:0] Y);\n\n\n"
-		 "\treg signed [H-1:0] h[N];"
-		 "\n\treg signed [W+H-1:0] y[N];\n\n\n", N, W, H);
+		 "\treg signed [H:0] h[N];"
+		 "\n\treg signed [W+H:0] y[N];\n\n\n", N, W, H);
   int m = (N-1)/2;
   int h, h_rect;
   double hamming;
