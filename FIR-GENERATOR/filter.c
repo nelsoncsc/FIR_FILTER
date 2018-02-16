@@ -29,9 +29,9 @@ int main(){
 		"parameter H = %d;\n"
 		 "\nmodule fir_filter(input clock,"
 		 "\n\t\t  input signed [W:0] Xin,"
-		 "\n\t\t  output reg signed [W:0] Y);\n\n\n"
+		 "\n\t\t  output reg signed [W+N-1:0] Y);\n\n\n"
 		 "\treg signed [H:0] h[N];"
-		 "\n\treg signed [W+H:0] y[N];\n\n\n", N, W, H);
+		 "\n\treg signed [W+H+N-1:0] y[N];\n\n\n", N, W, H);
   int m = (N-1)/2;
   int h, h_rect;
   double hamming;
